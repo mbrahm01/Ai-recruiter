@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Recruiter - Smart Candidate Matching</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .main-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #555;
+            font-size: 1.1rem;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 20px rgba(102, 126, 234, 0.2);
+            transform: translateY(-2px);
+        }
+
+        textarea.input-field {
+            height: 150px;
+            resize: vertical;
+        }
+
+        .analyze-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .analyze-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .analyze-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(102, 126, 234, 0.2);
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .results {
+            display: none;
+        }
+
+        .results-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .results-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .export-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .export-btn:hover {
+            background: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+        }
+
+        .candidates-table-container {
+            overflow-x: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .candidates-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .candidates-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.95rem;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .candidates-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e9ecef;
+            vertical-align: top;
+        }
+
+        .candidates-table tr:hover {
+            background-color: #f8f9fa;
+            transition: background-color 0.2s ease;
+        }
+
+        .candidates-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .match-score-cell {
+            text-align: center;
+        }
+
+        .match-score-badge {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            display: inline-block;
+        }
+
+        .skills-cell {
+            max-width: 200px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+
+        .skill-tag {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .contact-info {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .main-card, .results-card {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .results-header {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .candidates-table {
+                font-size: 0.85rem;
+            }
+
+            .candidates-table th,
+            .candidates-table td {
+                padding: 8px 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI Recruiter</h1>
+            <p>Intelligent Candidate Matching for Your Perfect Hire</p>
+        </div>
+
+        <div class="main-card">
+            <form id="jobForm">
+                <div class="form-group">
+                    <label for="jobDescription">Job Description</label>
+                    <textarea id="jobDescription" class="input-field" placeholder="Paste the complete job description here..." required></textarea>
+                </div>
+
+                <button type="submit" class="analyze-btn" id="analyzeBtn">
+                    🔍 Find Best Candidates
+                </button>
+            </form>
+
+            <div class="error-message" id="errorMessage">
+                <!-- Error messages will be shown here -->
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>AI is analyzing job requirements and matching candidates...</p>
+            </div>
+        </div>
+
+        <div class="results" id="results">
+            <div class="results-card">
+                <div class="results-header">
+                    <h2 class="results-title">Top Candidate Matches</h2>
+                    <button class="export-btn" id="exportBtn">📊 Export to Excel</button>
+                </div>
+                <div class="candidates-table-container">
+                    <table class="candidates-table" id="candidatesTable">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Current Role</th>
+                                <th>Experience</th>
+                                <th>Location</th>
+                                <th>Education</th>
+                                <th>Contact</th>
+                                <th>Skills</th>
+                                <th>Match Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="candidatesTableBody">
+                            <!-- Candidates will be populated here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let candidatesData = [];
+
+        document.getElementById('jobForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const jobDescription = document.getElementById('jobDescription').value.trim();
+            if (!jobDescription) return;
+
+            // Show loading state
+            document.getElementById('analyzeBtn').disabled = true;
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('errorMessage').style.display = 'none';
+
+            try {
+                // Call your Python backend API
+                const response = await fetch('/api/find-candidates', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        job_description: jobDescription
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                candidatesData = data.candidates || data; // Handle different response formats
+                
+                if (candidatesData.length === 0) {
+                    throw new Error('No candidates found matching the job description.');
+                }
+
+                displayResults(candidatesData);
+                document.getElementById('results').style.display = 'block';
+
+            } catch (error) {
+                console.error('Error:', error);
+                showError('Failed to fetch candidates: ' + error.message);
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('analyzeBtn').disabled = false;
+            }
+        });
+
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        function displayResults(candidates) {
+            const tbody = document.getElementById('candidatesTableBody');
+            tbody.innerHTML = '';
+
+            candidates.forEach(candidate => {
+                const row = document.createElement('tr');
+                
+                // Handle different possible field names from Python DataFrame
+                const name = candidate.name || candidate.Name || 'N/A';
+                const currentRole = candidate.current_role || candidate.currentRole || candidate['Current Role'] || 'N/A';
+                const experience = candidate.experience || candidate.Experience || 'N/A';
+                const location = candidate.location || candidate.Location || 'N/A';
+                const education = candidate.education || candidate.Education || 'N/A';
+                const email = candidate.email || candidate.Email || 'N/A';
+                const phone = candidate.phone || candidate.Phone || 'N/A';
+                const skills = candidate.skills || candidate.Skills || [];
+                const curr_company = candidate.curr_company || candidate['curr_company'] || 'N/A';
+
+                // Format skills - handle both array and string formats
+                let skillsHtml = '';
+                if (Array.isArray(skills)) {
+                    skillsHtml = skills.map(skill => `<span class="skill-tag">${skill}</span>`).join(' ');
+                } else if (typeof skills === 'string') {
+                    const skillsArray = skills.split(',').map(s => s.trim());
+                    skillsHtml = skillsArray.map(skill => `<span class="skill-tag">${skill}</span>`).join(' ');
+                }
+
+                row.innerHTML = `
+                    <td><strong>${name}</strong></td>
+                    <td>${currentRole}</td>
+                    <td>${experience}</td>
+                    <td>${location}</td>
+                    <td>${education}</td>
+                    <td class="contact-info">
+                        <div>${email}</div>
+                        <div>${phone}</div>
+                    </td>
+                    <td class="skills-cell">
+                        <div class="skills-list">${skillsHtml}</div>
+                    </td>
+                    <td class="match-score-cell">
+                        <span class="match-score-badge">${curr_company}%</span>
+                    </td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+        }
+
+        document.getElementById('exportBtn').addEventListener('click', function() {
+            if (candidatesData.length === 0) return;
+
+            // Prepare data for Excel
+            const worksheetData = [
+                ['Name', 'Current Role', 'Experience', 'Location', 'Education', 'Email', 'Phone', 'Skills', 'Match Score']
+            ];
+
+            candidatesData.forEach(candidate => {
+                // Handle different possible field names
+                const name = candidate.name || candidate.Name || 'N/A';
+                const currentRole = candidate.current_role || candidate.currentRole || candidate['Current Role'] || 'N/A';
+                const experience = candidate.experience || candidate.Experience || 'N/A';
+                const location = candidate.location || candidate.Location || 'N/A';
+                const education = candidate.education || candidate.Education || 'N/A';
+                const email = candidate.email || candidate.Email || 'N/A';
+                const phone = candidate.phone || candidate.Phone || 'N/A';
+                const skills = candidate.skills || candidate.Skills || [];
+                const matchScore = candidate.match_score || candidate.matchScore || candidate['Match Score'] || 0;
+
+                // Format skills for Excel
+                let skillsText = '';
+                if (Array.isArray(skills)) {
+                    skillsText = skills.join(', ');
+                } else if (typeof skills === 'string') {
+                    skillsText = skills;
+                }
+
+                worksheetData.push([
+                    name,
+                    currentRole,
+                    experience,
+                    location,
+                    education,
+                    email,
+                    phone,
+                    skillsText,
+                    `${Math.round(matchScore)}%`
+                ]);
+            });
+
+            // Create workbook and worksheet
+            const wb = XLSX.utils.book_new();
+            const ws = XLSX.utils.aoa_to_sheet(worksheetData);
+
+            // Auto-size columns
+            const colWidths = [];
+            worksheetData[0].forEach((header, i) => {
+                let maxWidth = header.length;
+                worksheetData.slice(1).forEach(row => {
+                    const cellLength = String(row[i] || '').length;
+                    maxWidth = Math.max(maxWidth, cellLength);
+                });
+                colWidths.push({ width: Math.min(maxWidth + 2, 50) });
+            });
+            ws['!cols'] = colWidths;
+
+            // Add worksheet to workbook
+            XLSX.utils.book_append_sheet(wb, ws, 'Candidates');
+
+            // Generate filename with timestamp
+            const timestamp = new Date().toISOString().slice(0, 10);
+            const filename = `AI_Recruiter_Candidates_${timestamp}.xlsx`;
+
+            // Save file
+            XLSX.writeFile(wb, filename);
+        });
+    </script>
+</body>
+</html>
