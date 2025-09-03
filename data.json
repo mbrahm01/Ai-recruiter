@@ -1,0 +1,633 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - -intitle:\"profiles\" -inurl:\"dir/\" site:linkedin.com/in/ OR site:linkedin.com/pub/ (\"Software Engineer III\" OR \"Senior Software Engineer\" OR \"AI/ML Engineer\") AND (\"python\" OR \"pytest\" OR \"automation frameworks\") AND (\"system design\" OR \"application development\" OR \"CI/CD\" OR \"cloud\" OR \"artificial intelligence\" OR \"machine learning\") AND (\"JPMorgan Chase\" OR \"Goldman Sachs\" OR \"Morgan Stanley\" OR \"Bank of America\" OR \"Citigroup\")",
+                "totalResults": "63000",
+                "searchTerms": "-intitle:\"profiles\" -inurl:\"dir/\" site:linkedin.com/in/ OR site:linkedin.com/pub/ (\"Software Engineer III\" OR \"Senior Software Engineer\" OR \"AI/ML Engineer\") AND (\"python\" OR \"pytest\" OR \"automation frameworks\") AND (\"system design\" OR \"application development\" OR \"CI/CD\" OR \"cloud\" OR \"artificial intelligence\" OR \"machine learning\") AND (\"JPMorgan Chase\" OR \"Goldman Sachs\" OR \"Morgan Stanley\" OR \"Bank of America\" OR \"Citigroup\")",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "8602b4c46bda04185"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - -intitle:\"profiles\" -inurl:\"dir/\" site:linkedin.com/in/ OR site:linkedin.com/pub/ (\"Software Engineer III\" OR \"Senior Software Engineer\" OR \"AI/ML Engineer\") AND (\"python\" OR \"pytest\" OR \"automation frameworks\") AND (\"system design\" OR \"application development\" OR \"CI/CD\" OR \"cloud\" OR \"artificial intelligence\" OR \"machine learning\") AND (\"JPMorgan Chase\" OR \"Goldman Sachs\" OR \"Morgan Stanley\" OR \"Bank of America\" OR \"Citigroup\")",
+                "totalResults": "63000",
+                "searchTerms": "-intitle:\"profiles\" -inurl:\"dir/\" site:linkedin.com/in/ OR site:linkedin.com/pub/ (\"Software Engineer III\" OR \"Senior Software Engineer\" OR \"AI/ML Engineer\") AND (\"python\" OR \"pytest\" OR \"automation frameworks\") AND (\"system design\" OR \"application development\" OR \"CI/CD\" OR \"cloud\" OR \"artificial intelligence\" OR \"machine learning\") AND (\"JPMorgan Chase\" OR \"Goldman Sachs\" OR \"Morgan Stanley\" OR \"Bank of America\" OR \"Citigroup\")",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "8602b4c46bda04185"
+            }
+        ]
+    },
+    "context": {
+        "title": "myglobalsearch"
+    },
+    "searchInformation": {
+        "searchTime": 0.505779,
+        "formattedSearchTime": "0.51",
+        "totalResults": "63000",
+        "formattedTotalResults": "63,000"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Shivani Wadkar - Senior Software Engineer at JPMorgan Chase ...",
+            "htmlTitle": "Shivani Wadkar - <b>Senior Software Engineer</b> at <b>JPMorgan Chase</b> ...",
+            "link": "https://in.linkedin.com/in/shivani-wadkar-05a912171",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Senior Software Engineer at JPMorgan Chase| AWS | GCP | Python \u00b7 Experienced ... Skilled in Python (Programming Language), Data Engineering, Machine Learning\u00a0...",
+            "htmlSnippet": "<b>Senior Software Engineer</b> at <b>JPMorgan Chase</b>| AWS | GCP | <b>Python</b> \u00b7 Experienced ... Skilled in <b>Python</b> (Programming Language), Data Engineering, <b>Machine Learning</b>&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/shivani-wadkar-05a912171",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/shivani-wadkar-05a912171",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA_yhQKssvJLXTrNlcK98YGq59s9fHkvzlfwDf08L2R-MMtykuvsYFE_hA&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/C4D03AQFawQoJEkz-NA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1607613445441?e=2147483647&v=beta&t=vpkp1tKUBZRZK53bzaXXuGUiBSE6Y9JVk9rAS95A-Pc",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/shivani-wadkar-05a912171",
+                        "og:description": "Senior Software Engineer at JPMorgan Chase| AWS | GCP | Python \u00b7 Experienced Data Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Python (Programming Language), Data Engineering, Machine Learning, Amazon Web Services (AWS), and Tableau. Strong information technology professional graduated from Thadomal Shahani Engineering College.  \u00b7 Experience: JPMorganChase \u00b7 Education: Thadomal Shahani Engineering College \u00b7 Location: Mumbai \u00b7 500+ connections on LinkedIn. View Shivani Wadkar\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/53u61u1lmf85dgwy8xxjimndb",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/C4D03AQFawQoJEkz-NA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1607613445441?e=2147483647&v=beta&t=vpkp1tKUBZRZK53bzaXXuGUiBSE6Y9JVk9rAS95A-Pc",
+                        "profile:last_name": "Wadkar",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Shivani",
+                        "og:type": "profile",
+                        "twitter:title": "Shivani Wadkar - Senior Software Engineer at JPMorgan Chase| AWS | GCP | Python | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Shivani Wadkar - Senior Software Engineer at JPMorgan Chase| AWS | GCP | Python | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/shivani-wadkar-05a912171",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Senior Software Engineer at JPMorgan Chase| AWS | GCP | Python \u00b7 Experienced Data Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Python (Programming Language), Data Engineering, Machine Learning, Amazon Web Services (AWS), and Tableau. Strong information technology professional graduated from Thadomal Shahani Engineering College.  \u00b7 Experience: JPMorganChase \u00b7 Education: Thadomal Shahani Engineering College \u00b7 Location: Mumbai \u00b7 500+ connections on LinkedIn. View Shivani Wadkar\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/9f7phd6x4ykce7craj09iybwb",
+                        "og:url": "https://in.linkedin.com/in/shivani-wadkar-05a912171",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/C4D03AQFawQoJEkz-NA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1607613445441?e=2147483647&v=beta&t=vpkp1tKUBZRZK53bzaXXuGUiBSE6Y9JVk9rAS95A-Pc"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Kishor Kunal - Software Engineer - III @ JPMorgan Chase & Co ...",
+            "htmlTitle": "Kishor Kunal - <b>Software Engineer - III</b> @ <b>JPMorgan Chase</b> &amp; Co ...",
+            "link": "https://in.linkedin.com/in/kishorkunal21",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Software Engineer - III @ JPMorgan Chase & Co. | Java, Python, SpringBoot ... Machine Learning Specialty certification. I thrive in dynamic\u00a0...",
+            "htmlSnippet": "<b>Software Engineer - III</b> @ <b>JPMorgan Chase</b> &amp; Co. | Java, <b>Python</b>, SpringBoot ... <b>Machine Learning</b> Specialty certification. I thrive in dynamic&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/kishorkunal21",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/kishorkunal21",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpHm2ay3EJnZlvuOPngUcoQ2uyFoB9Z5l4Qi14fT7esVJxlTd5_02bs9I&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/D4D03AQHAM7x_ylbuSw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714461724531?e=2147483647&v=beta&t=UB003MJhu7b4Rsvzk18xINgevLd2RKShfdA2E---hxk",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/kishorkunal21",
+                        "og:description": "Software Engineer - III @ JPMorgan Chase &amp; Co. | Java, Python, SpringBoot, GenAI, Deep Learning, ML \u00b7 As a Software Engineer at JPMorgan Chase &amp; Co., I\u2019m passionate about building robust, scalable solutions that power the financial industry. With 14+ years of experience in Java software development, I\u2019ve designed and implemented microservices for distributed payment systems, including SWIFT message processing on IBM MQ and a high-throughput Kafka platform for real-time deal processing.\n\nApart from Java, as a personal and academic interest, I&#39;ve dedicated 5+ years to Data Science, AI, and ML to equip myself for creating innovative and productive solutions for the corporate and investment banking sector. For this, I have done my Master in Data Science, PGDM in Data Science, and have AWS Machine Learning Specialty certification.\n\nI thrive in dynamic environments where resourcefulness, creativity, and adaptability are key. I\u2019m always open to connecting with fellow professionals who share a pass",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/53u61u1lmf85dgwy8xxjimndb",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D4D03AQHAM7x_ylbuSw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714461724531?e=2147483647&v=beta&t=UB003MJhu7b4Rsvzk18xINgevLd2RKShfdA2E---hxk",
+                        "profile:last_name": "Kunal",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Kishor",
+                        "og:type": "profile",
+                        "twitter:title": "Kishor Kunal - Software Engineer - III @ JPMorgan Chase &amp; Co. | Java, Python, SpringBoot, GenAI, Deep Learning, ML | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Kishor Kunal - Software Engineer - III @ JPMorgan Chase &amp; Co. | Java, Python, SpringBoot, GenAI, Deep Learning, ML | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/kishorkunal21",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Software Engineer - III @ JPMorgan Chase &amp; Co. | Java, Python, SpringBoot, GenAI, Deep Learning, ML \u00b7 As a Software Engineer at JPMorgan Chase &amp; Co., I\u2019m passionate about building robust, scalable solutions that power the financial industry. With 14+ years of experience in Java software development, I\u2019ve designed and implemented microservices for distributed payment systems, including SWIFT message processing on IBM MQ and a high-throughput Kafka platform for real-time deal processing.\n\nApart from Java, as a personal and academic interest, I&#39;ve dedicated 5+ years to Data Science, AI, and ML to equip myself for creating innovative and productive solutions for the corporate and investment banking sector. For this, I have done my Master in Data Science, PGDM in Data Science, and have AWS Machine Learning Specialty certification.\n\nI thrive in dynamic environments where resourcefulness, creativity, and adaptability are key. I\u2019m always open to connecting with fellow professionals who share a pass",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/9f7phd6x4ykce7craj09iybwb",
+                        "og:url": "https://in.linkedin.com/in/kishorkunal21",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/D4D03AQHAM7x_ylbuSw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714461724531?e=2147483647&v=beta&t=UB003MJhu7b4Rsvzk18xINgevLd2RKShfdA2E---hxk"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Nitish Bharadwaj Kopparty - Software Engineer III at JPMorgan ...",
+            "htmlTitle": "Nitish Bharadwaj Kopparty - <b>Software Engineer III</b> at <b>JPMorgan</b> ...",
+            "link": "https://www.linkedin.com/in/nitish-bharadwaj1996",
+            "displayLink": "www.linkedin.com",
+            "snippet": "Software Engineer III at JPMorgan Chase & Co. | AWS Certified Solutions ... Artificial Intelligence Foundations: Machine Learning Graphic. Artificial\u00a0...",
+            "htmlSnippet": "<b>Software Engineer III</b> at <b>JPMorgan Chase</b> &amp; Co. | AWS Certified Solutions ... <b>Artificial Intelligence</b> Foundations: <b>Machine Learning</b> Graphic. <b>Artificial</b>&nbsp;...",
+            "formattedUrl": "https://www.linkedin.com/in/nitish-bharadwaj1996",
+            "htmlFormattedUrl": "https://www.linkedin.com/in/nitish-bharadwaj1996",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEnMCOR-ytx0ZXHO2rgJlezc4CfXm5iHZMEjL8fSfOciDiTG4CU0Uc8QO&s",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://www.linkedin.com/in/nitish-bharadwaj1996",
+                        "og:description": "Software Engineer III at JPMorgan Chase &amp; Co. | AWS Certified Solutions Architect-Associate \u00b7 A technology enthusiast with around 4+ years of experience in Bigdata engineering, designing and building applications through various cloud resources. Working as Software Engineer III at one of the leading financial firms JPMorgan Chase &amp; Co. Certified in AWS Solutions Architect Associate and an SME in cloud migration and modernization projects. \u00b7 Experience: JPMorgan Chase &amp; Co. \u00b7 Education: University of Cincinnati \u00b7 Location: Wilmington \u00b7 500+ connections on LinkedIn. View Nitish Bharadwaj Kopparty\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/53u61u1lmf85dgwy8xxjimndb",
+                        "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "profile:last_name": "Kopparty",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Nitish Bharadwaj",
+                        "og:type": "profile",
+                        "twitter:title": "Nitish Bharadwaj Kopparty - Software Engineer III at JPMorgan Chase &amp; Co. | AWS Certified Solutions Architect-Associate | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Nitish Bharadwaj Kopparty - Software Engineer III at JPMorgan Chase &amp; Co. | AWS Certified Solutions Architect-Associate | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://www.linkedin.com/in/nitish-bharadwaj1996",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Software Engineer III at JPMorgan Chase &amp; Co. | AWS Certified Solutions Architect-Associate \u00b7 A technology enthusiast with around 4+ years of experience in Bigdata engineering, designing and building applications through various cloud resources. Working as Software Engineer III at one of the leading financial firms JPMorgan Chase &amp; Co. Certified in AWS Solutions Architect Associate and an SME in cloud migration and modernization projects. \u00b7 Experience: JPMorgan Chase &amp; Co. \u00b7 Education: University of Cincinnati \u00b7 Location: Wilmington \u00b7 500+ connections on LinkedIn. View Nitish Bharadwaj Kopparty\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/9f7phd6x4ykce7craj09iybwb",
+                        "og:url": "https://www.linkedin.com/in/nitish-bharadwaj1996",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Tom Joy - Vice President Python/Data science at JPMorgan Chase ...",
+            "htmlTitle": "Tom Joy - Vice President <b>Python</b>/Data science at <b>JPMorgan Chase</b> ...",
+            "link": "https://www.linkedin.com/in/tomjoy002",
+            "displayLink": "www.linkedin.com",
+            "snippet": "Vice President Python/Data science at JPMorgan Chase & Co. Fusion Data Solutions ... Senior Software Engineer-Python Developer (Django) + Cloud Technology.",
+            "htmlSnippet": "Vice President <b>Python</b>/Data science at <b>JPMorgan Chase</b> &amp; Co. Fusion Data Solutions ... <b>Senior Software Engineer</b>-<b>Python</b> Developer (Django) + <b>Cloud</b> Technology.",
+            "formattedUrl": "https://www.linkedin.com/in/tomjoy002",
+            "htmlFormattedUrl": "https://www.linkedin.com/in/tomjoy002",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp2ZNNjve0xshk0vCMgFZYsVaheta5-UpSYqk-WFEW0h3YoMLnzTBYRnp_&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/D4E03AQEEaC-6r0rkMQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1699628857979?e=2147483647&v=beta&t=TIBxj4Q7HVtmexPcCfHi-iFHivRZDlIr7FwrScVKusI",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://www.linkedin.com/in/tomjoy002",
+                        "og:description": "Vice President Python/Data science at JPMorgan Chase &amp; Co. Fusion Data Solutions by J.P. Morgan \u00b7 Vice President | Python &amp; AWS Architect | Data Analytics &amp; Software Development Leader\n\nSeasoned technology leader with extensive experience in Python, AWS, Spark, and full-stack development, specializing in corporate and investment banking. I lead a global software development and data analytics team, driving innovation and efficiency in high-impact projects.\n\n\ud83d\udd39 Expertise:\n\nArchitecting and developing frameworks, web apps, desktop applications, APIs, web services, and automation tools\nData analytics and big data processing using Spark, Polars, and modern data frameworks\nFull-stack development with Python, Django, React, and modern front-end frameworks\nCloud computing and AWS services, leveraging scalable infrastructure for enterprise solutions\nStreaming &amp; event-driven architectures using Kafka, Argo, and AWS services\nData lake and database management with Iceberg, DynamoDB, and RDBMS\nSDLC, Ag",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/53u61u1lmf85dgwy8xxjimndb",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D4E03AQEEaC-6r0rkMQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1699628857979?e=2147483647&v=beta&t=TIBxj4Q7HVtmexPcCfHi-iFHivRZDlIr7FwrScVKusI",
+                        "profile:last_name": "Joy",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Tom",
+                        "og:type": "profile",
+                        "twitter:title": "Tom Joy - Vice President Python/Data science at JPMorgan Chase &amp; Co. Fusion Data Solutions by J.P. Morgan | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Tom Joy - Vice President Python/Data science at JPMorgan Chase &amp; Co. Fusion Data Solutions by J.P. Morgan | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://www.linkedin.com/in/tomjoy002",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Vice President Python/Data science at JPMorgan Chase &amp; Co. Fusion Data Solutions by J.P. Morgan \u00b7 Vice President | Python &amp; AWS Architect | Data Analytics &amp; Software Development Leader\n\nSeasoned technology leader with extensive experience in Python, AWS, Spark, and full-stack development, specializing in corporate and investment banking. I lead a global software development and data analytics team, driving innovation and efficiency in high-impact projects.\n\n\ud83d\udd39 Expertise:\n\nArchitecting and developing frameworks, web apps, desktop applications, APIs, web services, and automation tools\nData analytics and big data processing using Spark, Polars, and modern data frameworks\nFull-stack development with Python, Django, React, and modern front-end frameworks\nCloud computing and AWS services, leveraging scalable infrastructure for enterprise solutions\nStreaming &amp; event-driven architectures using Kafka, Argo, and AWS services\nData lake and database management with Iceberg, DynamoDB, and RDBMS\nSDLC, Ag",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/9f7phd6x4ykce7craj09iybwb",
+                        "og:url": "https://www.linkedin.com/in/tomjoy002",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/D4E03AQEEaC-6r0rkMQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1699628857979?e=2147483647&v=beta&t=TIBxj4Q7HVtmexPcCfHi-iFHivRZDlIr7FwrScVKusI"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Prashanth N. - Software Engineer III at JPMorgan Chase & Co ...",
+            "htmlTitle": "Prashanth N. - <b>Software Engineer III</b> at <b>JPMorgan Chase</b> &amp; Co ...",
+            "link": "https://www.linkedin.com/in/prashanth-n-8b64b313a",
+            "displayLink": "www.linkedin.com",
+            "snippet": "Software Engineer III at JPMorgan Chase & Co. | ... Skilled in Java,Spring,Python,Cloud Technologies,Micro Services using Java and build solutions using agile\u00a0...",
+            "htmlSnippet": "<b>Software Engineer III</b> at <b>JPMorgan Chase</b> &amp; Co. | ... Skilled in Java,Spring,<b>Python</b>,<b>Cloud</b> Technologies,Micro Services using Java and build solutions using agile&nbsp;...",
+            "formattedUrl": "https://www.linkedin.com/in/prashanth-n-8b64b313a",
+            "htmlFormattedUrl": "https://www.linkedin.com/in/prashanth-n-8b64b313a",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ47I4Rq9BUyJze4CFroVDhTv6cG4oR3R1AbP97acrwFLN8OA91d9OwdR4&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/C4D03AQER6jNYN3Q_Tg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517597478230?e=2147483647&v=beta&t=LKlCHctd5Lj_S5cGw0wk-5wdmNbuIOyYs34-P3Fy0V0",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://www.linkedin.com/in/prashanth-n-8b64b313a",
+                        "og:description": "Software Engineer III  at JPMorgan Chase &amp; Co. ||  MSDS UT Austin \u00b7 Experienced Software Engineer with a demonstrated history of working in the financial services industry. Skilled in Java,Spring,Python,Cloud Technologies,Micro Services using Java and build solutions using agile methodology \u00b7 Experience: JPMorgan Chase &amp; Co. \u00b7 Education: The University of Texas at Austin \u00b7 Location: Chicago \u00b7 500+ connections on LinkedIn. View Prashanth N.\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/53u61u1lmf85dgwy8xxjimndb",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/C4D03AQER6jNYN3Q_Tg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517597478230?e=2147483647&v=beta&t=LKlCHctd5Lj_S5cGw0wk-5wdmNbuIOyYs34-P3Fy0V0",
+                        "profile:last_name": "N.",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Prashanth",
+                        "og:type": "profile",
+                        "twitter:title": "Prashanth N. - Software Engineer III  at JPMorgan Chase &amp; Co. ||  MSDS UT Austin | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Prashanth N. - Software Engineer III  at JPMorgan Chase &amp; Co. ||  MSDS UT Austin | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://www.linkedin.com/in/prashanth-n-8b64b313a",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Software Engineer III  at JPMorgan Chase &amp; Co. ||  MSDS UT Austin \u00b7 Experienced Software Engineer with a demonstrated history of working in the financial services industry. Skilled in Java,Spring,Python,Cloud Technologies,Micro Services using Java and build solutions using agile methodology \u00b7 Experience: JPMorgan Chase &amp; Co. \u00b7 Education: The University of Texas at Austin \u00b7 Location: Chicago \u00b7 500+ connections on LinkedIn. View Prashanth N.\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/9f7phd6x4ykce7craj09iybwb",
+                        "og:url": "https://www.linkedin.com/in/prashanth-n-8b64b313a",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/C4D03AQER6jNYN3Q_Tg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517597478230?e=2147483647&v=beta&t=LKlCHctd5Lj_S5cGw0wk-5wdmNbuIOyYs34-P3Fy0V0"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "shuvam sharma - Software Engineer III at JPMorgan Chase & Co ...",
+            "htmlTitle": "shuvam sharma - <b>Software Engineer III</b> at <b>JPMorgan Chase</b> &amp; Co ...",
+            "link": "https://in.linkedin.com/in/shuvam-sharma-27a13891",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Software Engineer III at JPMorgan Chase & Co.| Ex- Fidelity Investment| ex - CGI | AWS cloud Practitioner certified \u00b7 Infrastructure developer with good\u00a0...",
+            "htmlSnippet": "<b>Software Engineer III</b> at <b>JPMorgan Chase</b> &amp; Co.| Ex- Fidelity Investment| ex - CGI | AWS <b>cloud</b> Practitioner certified \u00b7 Infrastructure developer with good&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/shuvam-sharma-27a13891",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/shuvam-sharma-27a13891",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTTQA_Yc4pf6XtdFnOxw0GxNEamSI3U7hxNXNRAyw3JfCLTqb8x2fvbHs&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/D5603AQGyIEAYGpsCgw/profile-displayphoto-scale_200_200/B56ZfkJ9ezG0Ac-/0/1751879508096?e=2147483647&v=beta&t=s1fNTjSMmCnkvwbcFc82Ppb6RmAGguwAfa_I7KBOXl8",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/shuvam-sharma-27a13891",
+                        "og:description": "Software Engineer III at JPMorgan Chase &amp; Co.| Ex- Fidelity Investment| ex - CGI | AWS cloud Practitioner certified \u00b7 Infrastructure developer with good experience in Python, Shell Scripting and SQL. Masters in Data Science from  BITS-PILANI(WILP) \u00b7 Experience: JPMorganChase \u00b7 Education: Birla Institute of Technology and Science, Pilani \u00b7 Location: Bengaluru \u00b7 457 connections on LinkedIn. View shuvam sharma\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/53u61u1lmf85dgwy8xxjimndb",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQGyIEAYGpsCgw/profile-displayphoto-scale_200_200/B56ZfkJ9ezG0Ac-/0/1751879508096?e=2147483647&v=beta&t=s1fNTjSMmCnkvwbcFc82Ppb6RmAGguwAfa_I7KBOXl8",
+                        "profile:last_name": "sharma",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "shuvam",
+                        "og:type": "profile",
+                        "twitter:title": "shuvam sharma - Software Engineer III at JPMorgan Chase &amp; Co.| Ex- Fidelity Investment| ex - CGI | AWS cloud Practitioner certified | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "shuvam sharma - Software Engineer III at JPMorgan Chase &amp; Co.| Ex- Fidelity Investment| ex - CGI | AWS cloud Practitioner certified | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/shuvam-sharma-27a13891",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Software Engineer III at JPMorgan Chase &amp; Co.| Ex- Fidelity Investment| ex - CGI | AWS cloud Practitioner certified \u00b7 Infrastructure developer with good experience in Python, Shell Scripting and SQL. Masters in Data Science from  BITS-PILANI(WILP) \u00b7 Experience: JPMorganChase \u00b7 Education: Birla Institute of Technology and Science, Pilani \u00b7 Location: Bengaluru \u00b7 457 connections on LinkedIn. View shuvam sharma\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/9f7phd6x4ykce7craj09iybwb",
+                        "og:url": "https://in.linkedin.com/in/shuvam-sharma-27a13891",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/D5603AQGyIEAYGpsCgw/profile-displayphoto-scale_200_200/B56ZfkJ9ezG0Ac-/0/1751879508096?e=2147483647&v=beta&t=s1fNTjSMmCnkvwbcFc82Ppb6RmAGguwAfa_I7KBOXl8"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Priyanka Bhalekar - Associate Software Engineer III | JPMorgan Chase",
+            "htmlTitle": "Priyanka Bhalekar - Associate <b>Software Engineer III</b> | <b>JPMorgan Chase</b>",
+            "link": "https://in.linkedin.com/in/priyanka-bhalekar-08482166",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Associate Software Engineer III | JPMorgan Chase | 10+ Years of Expertise in ... Specialising in Python development and leveraging popular Python web\u00a0...",
+            "htmlSnippet": "Associate <b>Software Engineer III</b> | <b>JPMorgan Chase</b> | 10+ Years of Expertise in ... Specialising in <b>Python</b> development and leveraging popular <b>Python</b> web&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/priyanka-bhalekar-08482166",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/priyanka-bhalekar-08482166",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShTd2ho5_H55kWgfKNrPVvSohcpAtPZPaw7H6xgK8MSoTuPJF4eqqlgWY&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/C5103AQFQ211xjjAs-w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1584129063671?e=2147483647&v=beta&t=GKLq4hS9NCAFlG1pJzdJzPn2xrdMNqjC1bNp67XfMoU",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/priyanka-bhalekar-08482166",
+                        "og:description": "Associate Software Engineer III | JPMorgan Chase | 10+ Years of Expertise in Software Development &amp; Engineering \u00b7 I am a Senior Associate Software Engineer III with over a decade of hands-on experience delivering high-impact software solutions within the financial technology (FinTech) space. At JPMorgan Chase, I contribute to the development of scalable, secure, and data-driven systems that power some of the world\u2019s most advanced financial services.\n\nSpecialising in Python development and leveraging popular Python web frameworks (such as Tornado, Django and Flask), I have honed my skills in creating robust applications that meet the complex needs of the financial sector. My expertise spans both backend development and data engineering, with a deep focus on big data solutions and cloud-based architectures, primarily using AWS.\n\nOver the course of my career, I have collaborated with cross-functional teams to build applications that not only meet regulatory and security standards but also offer performanc",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/53u61u1lmf85dgwy8xxjimndb",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/C5103AQFQ211xjjAs-w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1584129063671?e=2147483647&v=beta&t=GKLq4hS9NCAFlG1pJzdJzPn2xrdMNqjC1bNp67XfMoU",
+                        "profile:last_name": "Bhalekar",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Priyanka",
+                        "og:type": "profile",
+                        "twitter:title": "Priyanka Bhalekar - Associate Software Engineer III | JPMorgan Chase | 10+ Years of Expertise in Software Development &amp; Engineering | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Priyanka Bhalekar - Associate Software Engineer III | JPMorgan Chase | 10+ Years of Expertise in Software Development &amp; Engineering | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/priyanka-bhalekar-08482166",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Associate Software Engineer III | JPMorgan Chase | 10+ Years of Expertise in Software Development &amp; Engineering \u00b7 I am a Senior Associate Software Engineer III with over a decade of hands-on experience delivering high-impact software solutions within the financial technology (FinTech) space. At JPMorgan Chase, I contribute to the development of scalable, secure, and data-driven systems that power some of the world\u2019s most advanced financial services.\n\nSpecialising in Python development and leveraging popular Python web frameworks (such as Tornado, Django and Flask), I have honed my skills in creating robust applications that meet the complex needs of the financial sector. My expertise spans both backend development and data engineering, with a deep focus on big data solutions and cloud-based architectures, primarily using AWS.\n\nOver the course of my career, I have collaborated with cross-functional teams to build applications that not only meet regulatory and security standards but also offer performanc",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/9f7phd6x4ykce7craj09iybwb",
+                        "og:url": "https://in.linkedin.com/in/priyanka-bhalekar-08482166",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/C5103AQFQ211xjjAs-w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1584129063671?e=2147483647&v=beta&t=GKLq4hS9NCAFlG1pJzdJzPn2xrdMNqjC1bNp67XfMoU"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Maitri Shah - Senior Software Engineer @ Goldman Sachs | MSIS ...",
+            "htmlTitle": "Maitri Shah - <b>Senior Software Engineer</b> @ <b>Goldman Sachs</b> | MSIS ...",
+            "link": "https://www.linkedin.com/in/maitri-shah-59a010186",
+            "displayLink": "www.linkedin.com",
+            "snippet": "Senior Software Engineer @ Goldman Sachs | MSIS ... Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning Graphic\u00a0...",
+            "htmlSnippet": "<b>Senior Software Engineer</b> @ <b>Goldman Sachs</b> | MSIS ... Introduction to TensorFlow for <b>Artificial Intelligence</b>, <b>Machine Learning</b>, and Deep Learning Graphic&nbsp;...",
+            "formattedUrl": "https://www.linkedin.com/in/maitri-shah-59a010186",
+            "htmlFormattedUrl": "https://www.linkedin.com/in/maitri-shah-59a010186",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEnMCOR-ytx0ZXHO2rgJlezc4CfXm5iHZMEjL8fSfOciDiTG4CU0Uc8QO&s",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://www.linkedin.com/in/maitri-shah-59a010186",
+                        "og:description": "Senior Software Engineer @ Goldman Sachs | MSIS @ NYU Courant | Graduate Student Researcher @ Citi \u00b7 Passionate about working, learning new technologies and implementing them \u00b7 Experience: Goldman Sachs \u00b7 Education: Courant Institute of Mathematical Sciences \u00b7 Location: New York \u00b7 500+ connections on LinkedIn. View Maitri Shah\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/53u61u1lmf85dgwy8xxjimndb",
+                        "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "profile:last_name": "Shah",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Maitri",
+                        "og:type": "profile",
+                        "twitter:title": "Maitri Shah - Senior Software Engineer @ Goldman Sachs | MSIS @ NYU Courant | Graduate Student Researcher @ Citi | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Maitri Shah - Senior Software Engineer @ Goldman Sachs | MSIS @ NYU Courant | Graduate Student Researcher @ Citi | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://www.linkedin.com/in/maitri-shah-59a010186",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Senior Software Engineer @ Goldman Sachs | MSIS @ NYU Courant | Graduate Student Researcher @ Citi \u00b7 Passionate about working, learning new technologies and implementing them \u00b7 Experience: Goldman Sachs \u00b7 Education: Courant Institute of Mathematical Sciences \u00b7 Location: New York \u00b7 500+ connections on LinkedIn. View Maitri Shah\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/9f7phd6x4ykce7craj09iybwb",
+                        "og:url": "https://www.linkedin.com/in/maitri-shah-59a010186",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q"
+                    }
+                ],
+                "Person": [
+                    {}
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Manasvi Vashishtha - Software Engineer III at JPMorgan Chase ...",
+            "htmlTitle": "Manasvi Vashishtha - <b>Software Engineer III</b> at <b>JPMorgan Chase</b> ...",
+            "link": "https://in.linkedin.com/in/manasvi-vashishtha-660193178",
+            "displayLink": "in.linkedin.com",
+            "snippet": "Software Engineer III at JPMorgan Chase & Co. \u00b7 Feel free to ping or ... Course:- Machine Learning and Data Science with Python. Projects- \u2022 Built a\u00a0...",
+            "htmlSnippet": "<b>Software Engineer III</b> at <b>JPMorgan Chase</b> &amp; Co. \u00b7 Feel free to ping or ... Course:- <b>Machine Learning</b> and Data Science with <b>Python</b>. Projects- \u2022 Built a&nbsp;...",
+            "formattedUrl": "https://in.linkedin.com/in/manasvi-vashishtha-660193178",
+            "htmlFormattedUrl": "https://in.linkedin.com/in/manasvi-vashishtha-660193178",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR69MP7JlokWVuQ2yMRczd3e7UIZAZTxVNnPAY8yEyLR0RkNDn2gHjxUW8&s",
+                        "width": "200",
+                        "height": "200"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://media.licdn.com/dms/image/v2/C4D03AQEnWHaVK6y4pw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1611074589651?e=2147483647&v=beta&t=idr-Yv67zrd-sDRIjjgvAZv-WydOqT5FHbTVD1wyKtc",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://in.linkedin.com/in/manasvi-vashishtha-660193178",
+                        "og:description": "Software Engineer III at JPMorgan Chase &amp; Co. \u00b7 Feel free to ping or drop in at manasvivashishtha03@gmail.com. Conversations are a great way to learn! \u00b7 Experience: JPMorganChase \u00b7 Education: Mody Institute of Technology &amp; Science, Sikar \u00b7 Location: Mumbai \u00b7 500+ connections on LinkedIn. View Manasvi Vashishtha\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/53u61u1lmf85dgwy8xxjimndb",
+                        "twitter:image": "https://media.licdn.com/dms/image/v2/C4D03AQEnWHaVK6y4pw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1611074589651?e=2147483647&v=beta&t=idr-Yv67zrd-sDRIjjgvAZv-WydOqT5FHbTVD1wyKtc",
+                        "profile:last_name": "Vashishtha",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Manasvi",
+                        "og:type": "profile",
+                        "twitter:title": "Manasvi Vashishtha - Software Engineer III at JPMorgan Chase &amp; Co. | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Manasvi Vashishtha - Software Engineer III at JPMorgan Chase &amp; Co. | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://in.linkedin.com/in/manasvi-vashishtha-660193178",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Software Engineer III at JPMorgan Chase &amp; Co. \u00b7 Feel free to ping or drop in at manasvivashishtha03@gmail.com. Conversations are a great way to learn! \u00b7 Experience: JPMorganChase \u00b7 Education: Mody Institute of Technology &amp; Science, Sikar \u00b7 Location: Mumbai \u00b7 500+ connections on LinkedIn. View Manasvi Vashishtha\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/9f7phd6x4ykce7craj09iybwb",
+                        "og:url": "https://in.linkedin.com/in/manasvi-vashishtha-660193178",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://media.licdn.com/dms/image/v2/C4D03AQEnWHaVK6y4pw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1611074589651?e=2147483647&v=beta&t=idr-Yv67zrd-sDRIjjgvAZv-WydOqT5FHbTVD1wyKtc"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Ashish Kumar Panda - Senior Software Engineer | LinkedIn",
+            "htmlTitle": "Ashish Kumar Panda - <b>Senior Software Engineer</b> | LinkedIn",
+            "link": "https://sg.linkedin.com/in/ashishkumarpanda",
+            "displayLink": "sg.linkedin.com",
+            "snippet": "Ashish Kumar Panda. Senior Software Engineer. JPMorgan Chase & Co. Biju Pattnaik university of Technology. Singapore, Singapore.",
+            "htmlSnippet": "Ashish Kumar Panda. <b>Senior Software Engineer</b>. <b>JPMorgan Chase</b> &amp; Co. Biju Pattnaik university of Technology. Singapore, Singapore.",
+            "formattedUrl": "https://sg.linkedin.com/in/ashishkumarpanda",
+            "htmlFormattedUrl": "https://sg.linkedin.com/in/ashishkumarpanda",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEnMCOR-ytx0ZXHO2rgJlezc4CfXm5iHZMEjL8fSfOciDiTG4CU0Uc8QO&s",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "ProfilePage": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "twitter:card": "summary",
+                        "linkedin:pagetag": "openToProvider",
+                        "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+                        "al:android:package": "com.linkedin.android",
+                        "bingbot": "nocache",
+                        "locale": "en_US",
+                        "al:ios:url": "https://sg.linkedin.com/in/ashishkumarpanda",
+                        "og:description": "Senior Software Engineer \u00b7 I am constantly looking for a challenging work which compliments and expands my competencies, skills and education, that I\u2019ve acquired in my career so far, so as to foster and serve the continuously evolving demands of the industry and to establish myself in this competitive world. \u00b7 Experience: JPMorgan Chase &amp; Co. \u00b7 Education: Biju Pattnaik university of Technology \u00b7 Location: Singapore \u00b7 211 connections on LinkedIn. View Ashish Kumar Panda\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "al:ios:app_store_id": "288429040",
+                        "platform": "https://static.licdn.com/aero-v1/sc/h/53u61u1lmf85dgwy8xxjimndb",
+                        "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+                        "profile:last_name": "Panda",
+                        "twitter:site": "@Linkedin",
+                        "litmsprofilename": "public-profile-frontend",
+                        "profile:first_name": "Ashish Kumar",
+                        "og:type": "profile",
+                        "twitter:title": "Ashish Kumar Panda - Senior Software Engineer | LinkedIn",
+                        "al:ios:app_name": "LinkedIn",
+                        "og:title": "Ashish Kumar Panda - Senior Software Engineer | LinkedIn",
+                        "pagekey": "public_profile_v3_mobile",
+                        "al:android:url": "https://sg.linkedin.com/in/ashishkumarpanda",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Senior Software Engineer \u00b7 I am constantly looking for a challenging work which compliments and expands my competencies, skills and education, that I\u2019ve acquired in my career so far, so as to foster and serve the continuously evolving demands of the industry and to establish myself in this competitive world. \u00b7 Experience: JPMorgan Chase &amp; Co. \u00b7 Education: Biju Pattnaik university of Technology \u00b7 Location: Singapore \u00b7 211 connections on LinkedIn. View Ashish Kumar Panda\u2019s profile on LinkedIn, a professional community of 1 billion members.",
+                        "ubba": "https://static.licdn.com/aero-v1/sc/h/9f7phd6x4ykce7craj09iybwb",
+                        "og:url": "https://sg.linkedin.com/in/ashishkumarpanda",
+                        "al:android:app_name": "LinkedIn"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q"
+                    }
+                ]
+            }
+        }
+    ]
+}

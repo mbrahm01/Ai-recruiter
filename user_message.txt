@@ -1,0 +1,9 @@
+At PwC, our people in data and analytics engineering focus on leveraging advanced technologies and techniques to design and develop robust data solutions for clients. They play a crucial role in transforming raw data into actionable insights, enabling informed decision-making and driving business growth.
+In data engineering at PwC, you will focus on designing and building data infrastructure and systems to enable efficient data processing and analysis. You will be responsible for developing and implementing data pipelines, data integration, and data transformation solutions.
+Responsibilities-
+Design, develop, and optimize data pipelines and ETL processes on Snowflake Cloud Data Warehouse.
+Implement best practices for performance tuning, query optimization, and data modeling in Snowflake.
+Manage integrations with various data sources and ensure secure, scalable data flow.
+Work with stakeholders to translate business requirements into efficient Snowflake solutions.
+Ensure data governance, quality, and compliance within the Snowflake environment.
+Experience with SQL, cloud platforms (AWS/Azure/GCP), and BI/reporting tools preferred.
